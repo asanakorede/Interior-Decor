@@ -1,6 +1,6 @@
-.navbar ul{
+.navbar ul {
     display: inline-flex;
-    padding-left: 390px;
+    padding-left: 250px;
 }
 
 
@@ -12,58 +12,119 @@
     font-weight: 800;
 }
 
-body{
+body {
     background-image: url(../img/22.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
-.navbar a{
+.navbar a {
     text-decoration: none;
     color: darkblue;
 }
 
-.navbar ul{
+.navbar ul {
     list-style: none;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     text-decoration: underline;
     transition: 0.5s ease-in-out;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
+    padding-right: 60px;
 }
 
 .icon {
     padding-top: 55px;
-    padding-left: 100px;
+    padding-left: 70px;
+}
+
+span {
+    color: slateblue;
+}
+
+.icon i {
+    padding-right: 40px;
+}
+
+.index2 {
+    background-size: cover;
+    background-image: url(../img/bcg.webp);
+    background-repeat: no-repeat;
+    height: 150vh;
+}
+
+h1 {
+    color: maroon;
+    text-align: center;
+}
+
+img {
+    width: 20%;
+    padding-top: 40px;
+    padding-left: 10px;
+    height: 40vh;
+    width: 30%;
+    size: 100%;
+    justify-content: space-between;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.index3 {
+    background-image: url(../img/img11.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.bt-h1 {
+    padding-top: 80px;
+}
+
+.bt-2 {
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+h3{
+    padding-bottom: 70px;
 }
 
 p{
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 50px;
+    font-weight: 50px;
 }
 
-span{
-    color: slateblue;
-}
-
-.index2{
-    background-size: cover;
-    background-image: url(../img/index2.jpeg);
-    background-repeat: no-repeat;
-}
-
-.images{
-    width: 40%;
-    align-items: center;
-    padding-top: 60px;
-    padding-left: 30px;
+.details{
     display: flex;
+    padding-left: 150px;
     justify-content: space-between;
+}
+
+.phone{
+    padding-right: 840px;
+}
+
+.details i{
+    padding-top: 30px;
+    padding-right: 70px;
+}
+
+.email{
+    padding-right: 400px;
 }
