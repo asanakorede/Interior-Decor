@@ -1,0 +1,44 @@
+.navbar ul{
+    display: inline-flex;
+    padding-left: 390px;
+}
+
+
+.navbar li {
+    padding-top: 40px;
+    padding-right: 30px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+body{
+    background-image: url(../img/22.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    padding-top: 55px;
+    padding-left: 100px;
+}
