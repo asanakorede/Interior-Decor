@@ -65,9 +65,8 @@ h1 {
 }
 
 img {
-    width: 20%;
     padding-top: 40px;
-    padding-left: 10px;
+    padding-left: 30px;
     height: 40vh;
     width: 30%;
     size: 100%;
@@ -100,31 +99,31 @@ h2 {
     text-align: center;
 }
 
-h3{
+h3 {
     padding-bottom: 70px;
 }
 
-p{
+p {
     text-align: center;
     font-size: 50px;
     font-weight: 50px;
 }
 
-.details{
-    display: flex;
-    padding-left: 150px;
-    justify-content: space-between;
+.details {
+    /* display: flex; */
+    /* padding-left: 150px; */
 }
 
-.phone{
+.phone {
     padding-right: 840px;
 }
 
-.details i{
+.details i {
     padding-top: 30px;
-    padding-right: 70px;
+    /* padding-right: 70px; */
+    padding-left: 20px;
 }
 
-.email{
+.email {
     padding-right: 400px;
 }
